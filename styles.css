@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: rgb(242, 14, 14);
+}
+
+.logo img {
+    height: 70px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 0px;
+    background: url('../images/hero-banner.jpg') no-repeat center center/cover;
+    color: rgb(10, 1, 1);
+}
+
+/* Courses */
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.course-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.course-item img {
+    width: 270px;
+    height: 190px;
+}
+
+/* Testimonials */
+.testimonial-item {
+    display: inline-block;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+#menu {
+    padding: 40px;
+    text-align: center;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.menu-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+.course-item:hover{
+    transform: scale(1.1); /* Scale up the image on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+
+.menu-item1 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.menu-item img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+
+.menu-item1 img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+
+
+.testimonial-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
